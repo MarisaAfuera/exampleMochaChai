@@ -1,0 +1,3 @@
+# Ficheros y carpetas que no se llevan a GitHub
+useReadUsers.js
+node_modules/

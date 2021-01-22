@@ -41,4 +41,15 @@ Execute the command:
 mocha readUsers.test.js 
 ```
 
-You'll see the test result
+You'll see the test result:
+```
+  readUsers: 
+    getResource
+      √ should throw a ValidationError when the resource is empty
+      √ should throw a NotFoundError when the resource is not found (77ms)
+      √ should fetch requested resource (642ms)
+      √ should throw a NotFoundError with the given identifier when resource is not found
+      √ should fetch a user with the given id (987ms)
+
+  5 passing (2s)
+```
